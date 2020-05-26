@@ -1,0 +1,261 @@
+@charset "utf-8";
+@import url();
+
+/* 基本設定 */
+
+*,
+*::before,
+*::after{
+box-sizing: border-box;
+}
+
+body{
+    font-size:16px;
+    /* line-height: 50px; */
+    font-family:Rage LET Plain, serif;
+    background-color: #D9D9F3;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+}
+
+a{
+    text-decoration:none;
+}
+
+li{
+list-style-type: none;
+}
+
+h2{
+    text-align: center;
+    color: #F4F0E6;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+
+
+/* header */
+header{
+    position:relative;
+    width: 100%;
+    height: 620px;
+    background-image: url(../../gazou/hana.jpeg);
+    background-size:cover;
+}
+
+header .title{
+   display: inline-block;
+    padding:250px 80px 0 120px;
+}
+
+header h1{
+    color:#CEEFE4;
+    font-size:120px;
+    font-family: DejaVu,Serif;
+    padding-bottom:50px;
+}
+
+.sns ul{
+    width: 604px;
+    height: 105px;
+    display:flex;
+    position: absolute;
+    bottom:100px;
+    right: 0;
+}
+
+.sns a{
+    padding-left:30px;
+}
+.sns img{
+    width: 50px;
+    height: 50px;
+}
+
+/* menu */
+.menu{
+    background-color: #9DD3A8;
+}
+
+.menu ul{
+    display:flex;
+    justify-content:space-around;
+    font-size: 30px;
+    padding:10px 0;
+}
+
+.menu a{
+    color: #F4F0E6;
+    font-size: 40px;
+}
+
+
+
+
+
+/* contents */
+
+/* news */
+
+.news h2{
+margin: 40px 0 30px;
+}
+
+.newscontents{
+    display:flex;
+    justify-content:center;
+}
+
+.newcontents dl{
+    width: 200px;
+    height: 220px;
+} 
+dt img{
+    width: 200px;
+    height: 220px;
+    background-size:cover;
+}
+
+.newscontents dd{
+    color: #707070;
+}
+
+
+
+
+/* anilog */
+.anilog h2{
+    margin-top: 70px;
+}
+
+.article00{
+    background-image: url(../../gazou/garin.jpeg);
+    background-size:contain;
+    background-repeat: no-repeat; 
+    width: 600px;
+    height: 500px;
+    margin-left:150px;
+    margin-top:70px;
+}
+
+.article00 p{
+    color: #9DD3A8;
+    font-size: 100px;
+font-weight: bold;
+margin-left: 500px;
+margin-bottom: -80px;
+}
+
+.article01{
+    background-image: url(../../gazou/food.jpeg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    width: 600px;
+    height: 400px;
+    margin-left: 500px;
+    margin-top:100px;
+    margin-bottom:80px;
+}
+
+.article01 p{
+    color: #9DD3A8;
+    font-size: 100px;
+font-weight: bold;
+margin-left: -280px;
+
+}
+
+.anilog .more{
+    text-align: center;
+}
+
+.anilog .more a{
+    background-color:#F4F0E6;
+    padding:0 50px;
+    font-size: 40px;
+    font-weight: bold;
+    color:#9DD3A8;
+}
+
+/* about */
+
+.about h2{
+    margin-top:170px;
+}
+
+.about .human{
+    display: flex;
+    background-color: #F4F0E6;
+    margin-bottom:100px;
+    padding:20px;   
+    width:80%; 
+}
+
+.human dt img{
+    width: 170px;
+    height: 170px;
+    background-size:cover;
+    object-fit: cover;
+    border-radius:50%;
+    margin-left:80px;
+}
+
+.human dd{
+    color:#707070;
+    padding:20px 0 0 40px;
+}
+
+/* contact */
+
+.contact{
+    margin:40px 300px 80px 300px;
+    border: 3px solid #F4F0E6;
+    padding:10px 30px 30px;
+}
+form{
+    display: flex;
+    flex-direction:column;
+    text-align: left;
+}
+
+.inputform label{
+    color: #707070;
+    font-size:30px;
+    margin:5px 0;
+}
+
+input {
+        width: 200px;      
+}
+
+.inputform input{
+    border: solid 0px;
+    padding:5px;
+    font-family:serif;
+font-weight: bold;
+
+}
+
+select{
+border:  solid 0px;
+padding:5px;
+font-family:serif;
+font-weight: bold;
+}
+
+textarea{
+    border:  solid 0px;
+    font-family:serif;
+font-weight: bold;
+width: 400px; 
+height: 50px;
+margin-right:150px;
+}
+
+.submit{
+    display:flex;
+    justify-content:left;
+}
+
